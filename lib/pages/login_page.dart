@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onPrimary,
         title: const Text("Login Page"),
       ),
       body: SafeArea(
@@ -24,10 +24,10 @@ class LoginPage extends StatelessWidget {
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.blueAccent,
                 ),
-                child: const Text(
-                    'Login',
-                    style: TextStyle(color: Colors.white,)
-                ),
+                child: const Text('Login',
+                    style: TextStyle(
+                      color: Colors.white,
+                    )),
               ),
             ],
           ),

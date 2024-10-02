@@ -18,7 +18,7 @@ class ThirdPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white70,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onPrimary,
         title: Text("Third Page"),
       ),
       body: SafeArea(

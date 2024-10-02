@@ -10,7 +10,7 @@ class ProfileSettingsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Theme.of(context).colorScheme.onPrimary,
         title: const Text('ProfileSettingsPage'),
       ),
       body: SafeArea(
